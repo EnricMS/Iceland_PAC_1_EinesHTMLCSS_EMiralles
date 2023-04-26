@@ -7,3 +7,4 @@ function guardarEmail() {
         document.getElementById("emailsGuardados").innerHTML = "Emails guardados: " + emails.join(", ");
     }
 }
+
