@@ -11,6 +11,13 @@
     font-weight: bolder;
 }
 
+.link{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    word-spacing:  2px;
+}
+
 .bodyStyle{
     background: linear-gradient(rgba(35,65,144,255), rgb(81, 65, 250), rgb(39, 145, 177), rgb(81, 65, 250), rgba(35,65,144,255) );
 }
@@ -48,10 +55,19 @@
     background: linear-gradient(rgba(35,65,144,255), rgba(21, 6, 202, 1));
     color: white;
     text-align: center;
+    align-items: center;
     width: 100%;
     position: absolute;
     padding-top: 30px;
     line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 .input-email {
@@ -59,9 +75,22 @@
     border: none;
     border-bottom: 1px solid white;
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
+    color: white;
+}
+
+.saveButton{
+    width: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(39, 145, 177);
+    color: white;
 }
 
 
@@ -110,14 +139,16 @@
    
 .nav a{
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
     text-decoration: none;
     word-spacing:  2px;
+    padding: 5px 10px;
 }
   
 .nav a:visited{
     color: white;
 }
+
 
 /* PC */
 @media screen and (min-width: 1024px) {
@@ -165,8 +196,6 @@
         flex-direction: row;
         justify-content: flex-end;
         padding-top: 50px;
-        padding-left: 75%;
-        padding-right: 2%;
         justify-content: space-evenly;
     }   
 
@@ -304,14 +333,6 @@
 /*------------------------------INFORMACIO------------------------------*/
 
 
-.link{
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    word-spacing:  2px;
-}
-  
-
 .sliderInfo{
     width: 80%;
     margin-left: auto;
@@ -399,8 +420,15 @@
 /* TABLET */
 @media screen and (min-width:481px) and (max-width: 1023px) { 
 
+    .bodyText{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 10px;
+        width: 90%;
+    }
+
     .sliderInfo{
-        width: 80%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
@@ -409,8 +437,12 @@
         padding: 0%;
     }
 
-    .multimedia {
-        width: auto;
+    .sliderInfo > ul {
+        list-style: none;
+    }
+
+    .multimedia > img{
+        width: 100%
     }
 }
 
@@ -442,13 +474,12 @@
         width: 100%
     }
 
-    .multimedia > iframe {
-        /* widt; */
+    .multimedia > iframe{
+        width: 100%
     }
 }
 
 /*-------------------------------------------------------------------------*/
-
 
 
 
@@ -466,6 +497,7 @@
 
 /* PHONE */
 @media screen and (max-width: 480px) {
+    
 }
 /*-------------------------------------------------------------------------*/
 
@@ -474,6 +506,9 @@
 
 
 /*------------------------------ACTIVITATS-------------------------------------*/
+
+
+
 /* PC */
 @media screen and (min-width: 1024px) {
 }

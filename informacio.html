@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Information</title>
-    <link rel="icon" type="image/x-icon" href="img/png-transparent-flag-of-iceland-map-icelandic-map-flag-text-logo.png">
+    <link rel="icon" type="image/x-icon"
+        href="img/png-transparent-flag-of-iceland-map-icelandic-map-flag-text-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
@@ -100,7 +101,7 @@
         </p>
 
         <div class="multimedia">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WCGP87LKklY"
+            <iframe width="760" height="515" src="https://www.youtube.com/embed/WCGP87LKklY"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen>
@@ -123,50 +124,49 @@
             that offers something for everyone.
         </p>
 
-        <div>
-            <ul>
-                <li><span class="bold">Iceland's natural wonders:</span> Iceland is home to a variety of natural
-                    wonders,
-                    including
-                    glaciers, volcanoes, hot springs, and geysers. Visitors can take guided tours to explore
-                    these
-                    features and even go inside a volcano or hike on a glacier.
-                </li>
 
-                <li><span class="bold">See the Northern Lights:</span> Iceland's location on the edge of the Arctic
-                    Circle makes it an
-                    ideal
-                    place to see the Aurora Borealis, or Northern Lights. The best time to see the lights is
-                    from
-                    September to April, and many tour operators offer Northern Lights tours.
-                </li>
+        <p><span class="bold">Iceland's natural wonders:</span> Iceland is home to a variety of natural
+            wonders,
+            including
+            glaciers, volcanoes, hot springs, and geysers. Visitors can take guided tours to explore
+            these
+            features and even go inside a volcano or hike on a glacier.
+        </p>
 
-                <li><span class="bold">Relax in a hot spring:</span> Iceland is known for its geothermal activity, which
-                    has created
-                    numerous
-                    hot springs and thermal baths. Visitors can soak in the warm, mineral-rich waters of the
-                    Blue
-                    Lagoon or visit one of the many public hot springs scattered throughout the country.
-                </li>
+        <p><span class="bold">See the Northern Lights:</span> Iceland's location on the edge of the Arctic
+            Circle makes it an
+            ideal
+            place to see the Aurora Borealis, or Northern Lights. The best time to see the lights is
+            from
+            September to April, and many tour operators offer Northern Lights tours.
+        </p>
 
-                <li><span class="bold">Go whale watching:</span> Iceland is one of the best places in the world for
-                    whale watching,
-                    with a
-                    variety of species, including humpback whales, orcas, and blue whales, commonly spotted
-                    in the
-                    waters around the island.
-                </li>
+        <p><span class="bold">Relax in a hot spring:</span> Iceland is known for its geothermal activity, which
+            has created
+            numerous
+            hot springs and thermal baths. Visitors can soak in the warm, mineral-rich waters of the
+            Blue
+            Lagoon or visit one of the many public hot springs scattered throughout the country.
+        </p>
 
-                <li><span class="bold">Visit Iceland's cultural attractions:</span> Iceland has a rich cultural
-                    heritage, and visitors
-                    can
-                    learn about the country's history and traditions at museums, art galleries, and historic
-                    sites.
-                    Reykjavik, the country's capital city, is also known for its vibrant arts and music
-                    scene.
-                </li>
-            </ul>
-        </div>
+        <p><span class="bold">Go whale watching:</span> Iceland is one of the best places in the world for
+            whale watching,
+            with a
+            variety of species, including humpback whales, orcas, and blue whales, commonly spotted
+            in the
+            waters around the island.
+        </p>
+
+        <p><span class="bold">Visit Iceland's cultural attractions:</span> Iceland has a rich cultural
+            heritage, and visitors
+            can
+            learn about the country's history and traditions at museums, art galleries, and historic
+            sites.
+            Reykjavik, the country's capital city, is also known for its vibrant arts and music
+            scene.
+        </p>
+
+
         <p>
             These are just a few of the many activities that visitors can enjoy in Iceland, making it a
             destination
@@ -191,7 +191,10 @@
 
     <footer class="footer">
         <p>Write down your e-mail for more info:</p>
-        <input type="text" placeholder=" e-mail" class="input-email">
+        <input type="email" class="input-email" id="email" placeholder=" e-mail">
+        <button class="saveButton" onclick="guardarEmail()">Save</button>
+        <p id="SavedEmails"></p>
+        <script src="src/index.js"></script>
 
         <div class="contenidorPolitiquesFooter">
             <div class="PolitiquesFooter">
