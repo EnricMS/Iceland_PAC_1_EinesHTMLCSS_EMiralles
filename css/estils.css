@@ -228,6 +228,10 @@
         line-height: 30px;
     } 
 
+    .input-email {
+        width: 70%;
+    }
+
     .iconaInst{
         width: 30px;
         margin-left: 10px;
@@ -486,44 +490,81 @@
 
 /*------------------------------GEOLOGIA-------------------------------------*/
 
-
-/* PC */
-@media screen and (min-width: 1024px) {
+#DorsalOceanica_iceland{
+    width: 70%;
 }
 
-/* TABLET */
-@media screen and (min-width:481px) and (max-width: 1023px) { 
+#DorsalOceanicaFoto_iceland{
+    width: 80%;
 }
 
-/* PHONE */
-@media screen and (max-width: 480px) {
+#img_Eyjafjallajökull{
+    width: 80%;
+    clip-path: inset(10% 0% 5% 0%);
+}
+
+#img_Hekla{
+    width: 80%;
+}
+
+#img_katla{
+    width: 80%;
+    clip-path: inset(5% 0% 5% 0%);
+}
+
+#img_Askja{
+    width: 80%;
+    clip-path: inset(0% 0% 5% 0%);
+}
+
+#img_AskjaVatnajokull-glacier{
+    width: 80%;
+}
+
+#img_langjokull-glacier{
+    width: 80%;
+}
+
+#img_Solheimajokull-glacier{
+    width: 80%;
+}
+
+#img_Myrdalsjokull-glacier{
+    width: 80%;
+}
+
+#img_Snæfellsjökull-glacier{
+    width: 80%;
+}
+.multimedia > iframe{
+    width: 80%
     
 }
+
 /*-------------------------------------------------------------------------*/
-
-
-
 
 
 /*------------------------------ACTIVITATS-------------------------------------*/
 
-
-
-/* PC */
-@media screen and (min-width: 1024px) {
+#img_mapaAurores {
+    width: 80%;
 }
 
-/* TABLET */
-@media screen and (min-width:481px) and (max-width: 1023px) { 
+#img_mapaHotspring {
+    width: 80%;
 }
 
-/* PHONE */
-@media screen and (max-width: 480px) {
+#img_mapaWhale {
+    width: 80%;
+    clip-path: inset(10% 0% 0% 0%);
 }
+
+#img_Huldufolk{
+    width: 70%;
+}
+
+
 /*-------------------------------------------------------------------------*/
-
-
-
 
 
 /*------------------------------ENLLAÇOS-------------------------------------*/
